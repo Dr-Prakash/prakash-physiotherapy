@@ -8,22 +8,24 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Prakash Physiotherapy</h1>
-        <p>Your trusted partner in physiotherapy.</p>
+        <div class="header-container">
+            <img src="assets/logo.png" alt="Prakash Physiotherapy Logo" class="logo">
+            <h1>Welcome to Prakash Physiotherapy</h1>
+            <p>Your trusted partner in physiotherapy.</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="treatments.html">Treatments</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="treatments.html">Treatments</a></li>
-            <li><a href="reviews.html">Reviews</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 
     <main>
         <h2>Book Your Session Today</h2>
-        <button onclick="bookSession()">Join the Session</button>
+        <button class="book-btn" onclick="bookSession()">Join the Session</button>
     </main>
 
     <footer>
